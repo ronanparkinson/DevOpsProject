@@ -1,0 +1,17 @@
+---
+kind: "operation"
+client: "com.atomist:rug"
+version: "1.0.0-20170715141010"
+editor:
+  name: "StarterAdditionEditor"
+  group: "atomist"
+  artifact: "spring-team-handlers"
+  version: "0.7.5"
+  origin:
+    repo: "git@github.com:atomisthq/enrollment-rugs.git"
+    branch: "4ce23e02b131204d464170a2f62ba7212cef44ad"
+    sha: "4ce23e0"
+  parameters:
+    - "group": "org.springframework.boot"
+    - "artifact": "spring-boot-starter-security"
+
