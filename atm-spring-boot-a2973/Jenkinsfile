@@ -1,0 +1,16 @@
+pipeline{
+    agent any
+
+    stages{
+        stage('Compile'){
+
+            steps{
+                withMaven(maven : 'MAVEN_HOME'){
+                  sh 'Hello from pipeline demo'
+                  build 'atm-spring-boot-a2973'
+                }
+            }
+        }
+    }
+}
+
